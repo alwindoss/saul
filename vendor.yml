@@ -1,0 +1,7 @@
+# Apply override to all files in the directory
+docs/** linguist-vendored
+# Apply override to a specific file
+Makefile -linguist-vendored
+Dockerfile -linguist-vendored
+# Apply override to all files and directories in the directory
+ano-dir/** linguist-vendored
