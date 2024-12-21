@@ -4,6 +4,15 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KyEV8CngWCgAIX2pldVr-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KyEV8CngWCgAIX2pldVr-31" target="KyEV8CngWCgAIX2pldVr-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="1045" />
+              <mxPoint x="460" y="1137" />
+              <mxPoint x="549" y="1137" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KyEV8CngWCgAIX2pldVr-1" value="On Premises" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="40" y="81" width="450" height="300" as="geometry" />
         </mxCell>
@@ -33,6 +42,84 @@
         </mxCell>
         <mxCell id="KyEV8CngWCgAIX2pldVr-10" value="Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="340" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-11" value="Cloud" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;verticalAlign=bottom;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="490" y="10" width="680" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-12" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="660" y="154" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-13" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="790" y="154" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-14" value="Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="920" y="154" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-15" value="Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="660" y="234" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-16" value="Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="790" y="234" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-17" value="Application" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="920" y="234" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-18" value="Internet" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_2;fillColor=#D2D3D3;gradientColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="350" y="440" width="460" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-19" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;exitX=0.31;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.38;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KyEV8CngWCgAIX2pldVr-11" target="KyEV8CngWCgAIX2pldVr-18">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="480" y="390" as="sourcePoint" />
+            <mxPoint x="520" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-20" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;endArrow=open;elbow=vertical;startArrow=none;endFill=0;strokeColor=#545B64;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.17;entryY=0.2;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KyEV8CngWCgAIX2pldVr-1" target="KyEV8CngWCgAIX2pldVr-18">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="480" y="390" as="sourcePoint" />
+            <mxPoint x="580" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-22" value="Audit Event API Gateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="361.75" y="830" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-23" value="AuditEvent Receiver" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="840.5" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-24" value="Audit Event Queue" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.sqs;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="690" y="830" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.65;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KyEV8CngWCgAIX2pldVr-22" target="KyEV8CngWCgAIX2pldVr-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1000" as="sourcePoint" />
+            <mxPoint x="560" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-28" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KyEV8CngWCgAIX2pldVr-23" target="KyEV8CngWCgAIX2pldVr-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="1000" as="sourcePoint" />
+            <mxPoint x="560" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KyEV8CngWCgAIX2pldVr-24" target="KyEV8CngWCgAIX2pldVr-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="1039.4125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="877" />
+              <mxPoint x="840" y="1045" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KyEV8CngWCgAIX2pldVr-31" target="KyEV8CngWCgAIX2pldVr-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-31" value="Audit Event Processor" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.fargate;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1006" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-32" value="Audit Event Metadata" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#C925D1;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1190" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="KyEV8CngWCgAIX2pldVr-34" value="Audit Event Store" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1182.5" width="76.5" height="93" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
