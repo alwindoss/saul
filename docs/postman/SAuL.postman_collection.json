@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "9c3d8a0c-7fdb-445c-8c93-ab3ebd8bd937",
+		"name": "SAuL",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "186548",
+		"_collection_link": "https://winter-flare-633504.postman.co/workspace/Alwin-Doss~23387dec-b9cb-415a-b29e-9d9cbba7d350/collection/186548-9c3d8a0c-7fdb-445c-8c93-ab3ebd8bd937?action=share&source=collection_link&creator=186548"
+	},
+	"item": [
+		{
+			"name": "Create Audit Event",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"event_time\": \"2024-11-13T14:27:27Z\",\r\n    \"event_type\": \"DELETE\",\r\n    \"user_id\": \"212326985\",\r\n    \"source_ip_address\": \"192.168.0.1\",\r\n    \"outcome\": \"SUCCESS\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/saul/v1/auditevent",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"saul",
+						"v1",
+						"auditevent"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
